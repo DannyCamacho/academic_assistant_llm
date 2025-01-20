@@ -48,7 +48,7 @@ Reads a large text file and splits it into smaller chunks with overlap. This ens
 
     Set up the Chroma collection: The first time you run the script, it will create a new Chroma collection to store the embeddings. You can modify the create_collection function to use a different collection name.
 
-    Input file: Place your large academic text in a file (e.g., output_file.txt). The script will process and split it into chunks before adding it to Chroma.
+    Input file: Place your large academic text in a file (e.g., input_file.txt). The script will process and split it into chunks before adding it to Chroma.
 
     Querying: After the text is added to the Chroma collection, you can ask the assistant any academic-related question. The assistant will retrieve relevant documents and generate an answer.
 
